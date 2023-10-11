@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Página Web Final</title>
+</head>
+
+<body>
+    <!---------------Primeira Parte---------------->
+    <a name="#topo"></a>
+    <h1 align="center">
+        <font color="blue" size="15" face="arial">
+            Windows 10 22H2 já pode ser baixado por todos usuários do sistema
+        </font>
+    </h1>
+    <p align="center"><a href="index.html" target="_blank"></a>
+        <!-------------------------------------------->
+        <button align="center"><strong>HOME</button></strong>
+        <button><strong><a href="sobre.html" target_blank> SOBRE</a></button></strong>
+        <button><strong><a href="contato.html" target_blank>CONTATO</a></button></strong>
+
+        <hr color="black" size="3">
+    <figure></figure>
+    <p align="center"> <img src="Imagens/Imagem Windows.png" width="700"></p>
+    <p>Exatamente um mês após seu lançamento oficial pela Microsoft, o <a
+            href="https://www.tecmundo.com.br/software/248145-microsoft-confirma-atualizacao-22h2-windows-10-outubro.htm"
+            target="_blank"> Windows 10 versão 22H2</a> (ou atualização Windows 10 2022) foi marcado nesta terça-feira
+        (22) como “para ampla implantação”, o que significa estar globalmente disponível através do Windows Update. De
+        acordo com o Windows Health Dashboard, "se você tiver um dispositivo qualificado", basta selecionar
+        <strong>"Verificar atualização"</strong>.
+    </p>
+    <p>Por enquanto, a Microsoft não detalhou quais serão as novidades que estarão incluídas na nova versão do Windows
+        10 e, provavelmente, não serão tão notáveis quanto as atualizações no Windows 11. De qualquer forma, a empresa
+        continuará lançando updates para a antiga versão do sistema até o fim de 2025.</p>
+    </figure>
+
+    <figure>
+        <p align="left"><img src="Imagens/Img2.jpg" width="500" border="1" /></p>
+        <figcaption> Fonte: <a href="https://unsplash.com/pt-br/fotografias/-jCY4oEMA3o" target_blank>Unsplash</a>
+            <figcaption>
+                <figure>
+
+                    <details>
+                        <summary>Continuar Lendo</summary>
+                        <p> “O Windows 10 será atendido até 14 de outubro de 2025 e anunciamos que a próxima atualização
+                            de recursos do Windows 10, versão 22H2, chegará no próximo mês, continuando a oferecer
+                            suporte e opções com o Windows”, disse o vice-presidente de gerenciamento de programas para
+                            manutenção e entrega do Windows na Microsoft, John Cable.</p>
+                        <p>Os consumidores que usam o Windows 10 e possuem dispositivos qualificados para o Windows 11
+                            podem realizar a atualização do sistema a partir de hoje (20). já os computadores que não
+                            foram considerados qualificados no último ano continuam inelegíveis para a instalação.</p>
+                        <img src="Imagens/img3.png" width="600" border="1" />
+                        <br />
+                        <br />
+                        <audio controls muted loop>
+                            <source src="Audios/musica windows.mp3" type="audio/mp3" />
+                        </audio>
+                    </details>
+                    <br />
+                    <br />
+
+                    <hr color="black" size="3">
+                    <!---------------Segunda Parte---------------->
+
+                    <table width="800" align="center" bgcolor="Aquamarine">
+                        <tr>
+                            <td>
+                                <form action="enviar.php" method="post" name="feedback">
+                                    <fieldset>
+                                        <legend align="center"> <strong>📄Deixe sua opinião</legend></strong>
+                                        <p align="center"> <strong>Deixe nos sabermos sua opinião sobre essa
+                                                atualização.
+                                        </p></strong>
+
+                                        <table cellpadding="3" cellspacing="1" align="center">
+                                            <tr>
+                                                <td><label>Nome Completo:</label>
+                                                <td><input type="text" id="Nome" name="Nome" size="15" maxlength="60"
+                                                        placeholder="Nome" required /></td>
+                            </td>
+                        <tr>
+
+                        <tr></tr>
+                        <td><label>E-Mail:</label></td>
+                        <td><input type="email" id="E-Mail" name="E-Mail" size="30" maxlength="30"
+                                placeholder="Digite seu E-Mail" required /></td>
+
+
+
+                        <tr></tr>
+                        <td><label> <u>O que você achou dessa atualização?</u></label></td>
+                        <br /> <br />
+
+                        <td>
+                            <input type="checkbox" id="feedback" name="feedback" value="feedback" required />
+                            <label>Ótima</label>
+                            <br>
+                            <input type="checkbox" id="sexo" name="sexo" value="feedback" required />
+                            <label> Pessima</label>
+                            <br>
+                            <input type="checkbox" id="feedback" name="feedback" value="feedback" />
+                            <label>Razoável</label>
+                        </td>
+                        </tr>
+
+                        <tr></tr>
+                        <td><label>Você utiliza o Windows 10 como Sistema Operacional?</label></td>
+                        <br /> <br />
+
+                        <td>
+                            <input type="radio" id="usuario" name="usuario" value="usuario" required />
+                            <label><strong>Sim</strong></label>
+                            <br>
+
+                            <input type="radio" id="usuario" name="usuario" value="usuario" required />
+                            <label><b>Não</b></label>
+                            <br>
+                            <input type="radio" id="usuario" name="usuario" value="usuario" required />
+                            <label><s>Talvez</s></label>
+                        </td>
+                        </tr>
+
+
+
+                        <td><input type="checkbox"> <label><i>Aceito receber novidades sobre as atualizações do Windows
+                                    10</label></i></td>
+                        <tr></tr>
+
+
+
+                        <td><label> Comentário:</label></td>
+                        <td><textarea cols="50" rows="5" id="coment" name="coment" maxlenght="500" required> </textarea>
+                        </td>
+                        </tr>
+                        <tr>
+
+                        <tr>
+                            <th colspan="2">
+                                <input type="submit" id="enviar" name="enviar" value="ENVIAR DADOS" />
+                                <input type="reset" id="limpar" name="limpar" value="LIMPAR" />
+                            </th>
+                            <br /> <br />
+                    </table>
+                    </form>
+                    </fieldset>
+                    </td>
+                    </tr>
+
+
+</body>
+
+</html>
